@@ -1,0 +1,1 @@
+"""Merchant catalog components."""

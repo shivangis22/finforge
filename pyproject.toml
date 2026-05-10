@@ -1,0 +1,63 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "finforge"
+version = "1.0.0"
+description = "Synthetic financial transaction data generation with persona-driven behavior simulation."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [
+  { name = "FinForge contributors" }
+]
+maintainers = [
+  { name = "FinForge maintainers" }
+]
+keywords = ["synthetic-data", "finance", "transactions", "simulation", "testing"]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Financial and Insurance Industry",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Operating System :: OS Independent",
+  "Topic :: Software Development :: Testing",
+  "Topic :: Office/Business :: Financial",
+  "Topic :: Scientific/Engineering :: Information Analysis"
+]
+dependencies = [
+  "pandas>=2.0",
+  "numpy>=1.24",
+  "faker>=24.0",
+  "pydantic>=2.6",
+  "python-dateutil>=2.8"
+]
+
+[project.urls]
+Homepage = "https://github.com/finforge/finforge"
+Repository = "https://github.com/finforge/finforge"
+Issues = "https://github.com/finforge/finforge/issues"
+Documentation = "https://github.com/finforge/finforge#readme"
+Changelog = "https://github.com/finforge/finforge/blob/main/CHANGELOG.md"
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0",
+  "build>=1.2",
+  "twine>=5.0",
+]
+
+[tool.setuptools]
+include-package-data = false
+
+[tool.setuptools.packages.find]
+include = ["finforge*"]
+exclude = ["tests*", "examples*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
