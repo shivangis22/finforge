@@ -11,7 +11,7 @@ requires-python = ">=3.11"
 license = "MIT"
 license-files = ["LICENSE"]
 authors = [
-  { name = "FinForge contributors" }
+  { name = "Shivangi Shukla" }
 ]
 maintainers = [
   { name = "FinForge maintainers" }
@@ -39,11 +39,11 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/finforge/finforge"
-Repository = "https://github.com/finforge/finforge"
-Issues = "https://github.com/finforge/finforge/issues"
-Documentation = "https://github.com/finforge/finforge#readme"
-Changelog = "https://github.com/finforge/finforge/blob/main/CHANGELOG.md"
+Homepage = "https://github.com/shivangis22/finforge"
+Repository = "https://github.com/shivangis22/finforge"
+Issues = "https://github.com/finforge/shivangis22/issues"
+Documentation = "https://github.com/shivangis22/finforge#readme"
+Changelog = "https://github.com/shivangis22/finforge/blob/main/CHANGELOG.md"
 
 [project.optional-dependencies]
 dev = [
