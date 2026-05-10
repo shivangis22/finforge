@@ -41,6 +41,7 @@ dependencies = [
 [project.urls]
 Homepage = "https://github.com/shivangis22/finforge"
 Repository = "https://github.com/shivangis22/finforge"
+
 Issues = "https://github.com/shivangis22/finforge/issues"
 Documentation = "https://github.com/shivangis22/finforge#readme"
 Changelog = "https://github.com/shivangis22/finforge/blob/main/CHANGELOG.md"
