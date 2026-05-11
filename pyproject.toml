@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "finforge"
-version = "1.0.0"
+version = "1.0.1"
 description = "Synthetic financial transaction data generation with persona-driven behavior simulation."
 readme = "README.md"
 requires-python = ">=3.11"
@@ -41,7 +41,7 @@ dependencies = [
 [project.urls]
 Homepage = "https://github.com/shivangis22/finforge"
 Repository = "https://github.com/shivangis22/finforge"
-Issues = "https://github.com/finforge/shivangis22/issues"
+Issues = "https://github.com/shivangis22/finforge/issues"
 Documentation = "https://github.com/shivangis22/finforge#readme"
 Changelog = "https://github.com/shivangis22/finforge/blob/main/CHANGELOG.md"
 
